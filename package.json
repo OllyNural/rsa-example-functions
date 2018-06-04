@@ -1,6 +1,6 @@
 {
   "name": "rsa-example-functions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node.js example implementation of the RSA encryption algorithm.",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
   },
   "author": "Oliver Nural",
   "license": "ISC",
+  "repository": "https://github.com/OllyNural/rsa-example-functions",
   "dependencies": {
     "babel-cli": "^6.9.0",
     "babel-core": "^6.26.3",

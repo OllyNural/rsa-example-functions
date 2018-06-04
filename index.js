@@ -3,7 +3,7 @@ import {
     keyDistribution,
     encryption,
     decryption
-} from './src'
+} from './dist'
 
 export {
     keyGen,
