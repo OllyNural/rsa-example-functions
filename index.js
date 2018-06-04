@@ -1,11 +1,11 @@
-import {
+const {
     keyGen,
     keyDistribution,
     encryption,
     decryption
-} from './dist'
+} = require('./dist')
 
-export {
+module.exports = {
     keyGen,
     keyDistribution,
     encryption,
