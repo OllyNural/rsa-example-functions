@@ -1,6 +1,6 @@
 {
   "name": "rsa-example-functions",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node.js example implementation of the RSA encryption algorithm.",
   "main": "index.js",
   "scripts": {
