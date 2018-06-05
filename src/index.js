@@ -18,24 +18,32 @@ const keyGen = () => {
     return {
         n,
         d,
+        e,
     }
 }
 
-const keyDistribution = () => {
-
+/**
+ * Encrypts a given 'plaintext' number 
+ * @param {number} m 
+ * @param {number} e 
+ m @param {number} n 
+ */
+const encryption = (m, e, n) => {
+    return Math.pow(m, e) % n
 }
 
-const encryption = () => {
-
-}
-
-const decryption = () => {
-
+/**
+ * Decrypts a given 'plaintext' number 
+ * @param {number} c 
+ * @param {number} d 
+ * @param {number} n 
+ */
+const decryption = (c, d, n) => {
+    return Math.pow(c, d) % n
 }
 
 export {
     keyGen,
-    keyDistribution,
     encryption,
     decryption
 }
